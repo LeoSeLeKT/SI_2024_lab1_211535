@@ -1,0 +1,64 @@
+3. Направив репозиториум на мојот GitHub и го именував SI_2024_lab1_211535.
+
+4. Направив фолдер со истотот име како репозиториумот и со помош на GitBash користеќи cd се упатив до фолдерот.
+
+5. Го поврзав локалниот репозиториум со оддалечениот со помош на командата git remote add origin https://github.com/LeoSeLeKT/SI_2024_lab1_211535.git
+
+6. Направив README.md file со помош на командата echo Leonid Maneski 211535 >> README.md и потоа направив git add README.md, па git commit -m "Initial commit".
+
+7. Ја ископирав SILab1_1.java и ја зачував во директориумот, потоа, користеќи git add SILab1_1.java проследено со git commit -m "Add starter code" 
+
+8. git push -u origin master
+
+9. git branch bug1
+   git branch bug2
+
+10. git checkout bug1
+
+11. Го сменив грешниот код во SILab1_1.java, потоа направив git add SILab1_1.java ; git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. git checkout bug2
+
+13. Го сменив грешниот код во SILab1_2.java, потоа направив git add SILab1_2.java ; git commit -m "Fix wrong condition in makeBigStringForm"
+
+14. git checkout bug1
+
+15. git add SILab1Main.java
+    git commit -m "Call method filterOddLengthStrings in main class"
+
+16. git checkout bug2
+
+17. git commit -m "Call method makeBigStringForm in main class"
+
+18. git push -u origin bug1
+    git push -u origin bug2
+
+19. git checkout master
+
+20. git pull origin master 
+    git merge bug1
+
+21. git push origin master
+
+22. git checkout bug2
+
+23. git rebase master
+git add SILab1Main.java
+git commit -m 'Fix conflict of function called in row 16'
+git rebase --continue
+
+24. git checkout master 
+
+25. git merge bug2
+
+26. git push origin master
+
+27. git checkout bug1
+    git push origin bug1
+    git checkout bug2
+    git pull
+    git push origin bug2
+
+28. git checkout master
+    git log
+    Ги креирав фајловите 211535.txt и logs.txt. Во logs.txt ги внесов информациите добиени користеќи ја командата git log, а во 211535.txt ги внесов информациите за како сум ја извршувал лабораториската вежба.

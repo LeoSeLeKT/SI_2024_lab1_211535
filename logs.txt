@@ -1,0 +1,23 @@
+commit 7ea418fe212b26a19881eb3028a2911b4b9ae5ef (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: LeoSeLeKT <leonidmaneski@gmail.com>
+Date:   Sun Apr 7 11:10:16 2024 +0200
+
+    Fix conflict of function called in row 16
+
+commit 0e2e301409eda50aa5f21ed0d8ade5977e632882
+Author: LeoSeLeKT <leonidmaneski@gmail.com>
+Date:   Sun Apr 7 11:06:36 2024 +0200
+
+    Fix wrong condition in makeBigStringForm
+
+commit a64796f8ef918f47a9d2078475a52032cdf5696a
+Author: LeoSeLeKT <leonidmaneski@gmail.com>
+Date:   Sun Apr 7 11:04:10 2024 +0200
+
+    Add starter code
+
+commit af9710e9aa036553cdc9b3b080254574df6fd25e
+Author: LeoSeLeKT <leonidmaneski@gmail.com>
+Date:   Sun Apr 7 11:03:35 2024 +0200
+
+    Initial commit
